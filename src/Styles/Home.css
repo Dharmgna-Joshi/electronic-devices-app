@@ -1,0 +1,91 @@
+/* Home.css */
+
+.home {
+    text-align: center;
+    background: linear-gradient(120deg, #2b5876 0%, #8ec9ff 100%);
+    color: #f5f5f5; /* Light grey text color */
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .home-header {
+    background: linear-gradient(120deg, #1f4037 0%, #99f2c8 100%); /* Green gradient */
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .home-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #07080a;
+  }
+  
+  .home-header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #07080a;
+
+  }
+  
+  .home-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .feature {
+    background: linear-gradient(120deg, #3a1c71 0%, #d76d77 50%, #ffaf7b 100%); /* Violet to orange gradient */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .feature h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 1em;
+    color: #ffffff;
+  }
+  
+  .home-call-to-action {
+    margin-top: 40px;
+    padding: 40px 20px;
+    background: linear-gradient(120deg, #000428 0%, #004e92 100%); /* Dark blue gradient */
+    border-radius: 10px;
+  }
+  
+  .home-call-to-action h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .home-call-to-action p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .home-call-to-action button {
+    background-color: #f76b1c; /* Bright orange */
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .home-call-to-action button:hover {
+    background-color: #ff8c42; /* Slightly lighter orange */
+  }
+  

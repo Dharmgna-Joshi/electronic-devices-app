@@ -1,0 +1,95 @@
+/* ContactUs.css */
+
+.contact-page {
+    text-align: center;
+    background: linear-gradient(120deg, #2b5876 0%, #8ec9ff 100%);
+    color: #f5f5f5;
+    padding: 40px 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-header {
+    background: linear-gradient(120deg, #1f4037 0%, #99f2c8 100%);
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box; /* Ensure padding is included in the element's width */
+  }
+  
+  .contact-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #07080a;
+  }
+  
+  .contact-header p {
+    font-size: 1.2em;
+    color: #07080a;
+  }
+  
+  .contact-form {
+    background: linear-gradient(120deg, #3a1c71 0%, #d76d77 50%, #ffaf7b 100%);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box; /* Ensure padding is included in the element's width */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    color: #f5f5f5;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    color: #333;
+    box-sizing: border-box; /* Ensures consistent padding and width */
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  .submit-btn {
+    background-color: #f76b1c;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .submit-btn:hover {
+    background-color: #ff8c42;
+  }
+  

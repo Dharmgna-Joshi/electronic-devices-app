@@ -1,0 +1,56 @@
+/* Navbar.css */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Dark background for the navbar */
+    padding: 10px 10px;
+    color: white;
+    z-index: 1000; /* Ensures the navbar stays on top of other elements */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow to the navbar */
+  }
+  
+  .logo h1 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #f76b1c; /* Bright orange for the logo to stand out */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    background-color: #f76b1c; /* Bright orange background on hover */
+    color: #333; /* Dark text color on hover for contrast */
+  }
+  
+  .nav-links a.active {
+    background-color: #f76b1c;
+    color: #333;
+  }
+  
+  .body-content {
+    padding-bottom: 60px; /* Adjust for the fixed footer */
+  }
+  
